@@ -1,31 +1,34 @@
 {
-  "homepage": "http://nanno.dip.jp/softlib/man/rlogin/",
-  "version": "2.23.2",
-  "bin": "RLogin.exe",
-  "shortcuts": [
-    ["RLogin.exe", "RLogin"]
-  ],
-  "checkver": {
-    "github": "https://github.com/kmiya-culti/RLogin/"
-  },
-  "architecture": {
-    "64bit": {
-      "url": "http://nanno.dip.jp/softlib/rlogin/2.23.2/rlogin_x64.zip",
-      "hash": "sha256:0B0A1D6EAA565510ADB8E5B6DFB83C284F314E4794279F99E8948141F87CB019"
+    "homepage": "http://nanno.dip.jp/softlib/man/rlogin/",
+    "version": "2.25.4",
+    "bin": "RLogin.exe",
+    "shortcuts": [
+        [
+            "RLogin.exe",
+            "RLogin"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/kmiya-culti/RLogin/"
     },
-    "32bit": {
-      "url": "http://nanno.dip.jp/softlib/rlogin/2.23.2/rlogin_x32.zip",
-      "hash": "sha256:490AEEE7F6ABC170CBB0EDDA40E598133FE3594F8E6DDF0A41A6F305922E49CA"
-    }
-  },
-  "autoupdate": {
     "architecture": {
-      "64bit": {
-        "url": "http://nanno.dip.jp/softlib/rlogin/$version/rlogin_x64.zip"
-      },
-      "32bit": {
-        "url": "http://nanno.dip.jp/softlib/rlogin/$version/rlogin_x32.zip"
-      }
+        "64bit": {
+            "url": "http://nanno.dip.jp/softlib/rlogin/2.25.4/rlogin_x64.zip",
+            "hash": "1d7e0ddb831476eab39418f08889f6b8f934c87ba7e080ab03803c1fe388e0ea"
+        },
+        "32bit": {
+            "url": "http://nanno.dip.jp/softlib/rlogin/2.25.4/rlogin_x32.zip",
+            "hash": "8c5d585bd22d51fd0fe69bd22538adb2a12fede1ebc6032ae146bef3089da1f6"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://nanno.dip.jp/softlib/rlogin/$version/rlogin_x64.zip"
+            },
+            "32bit": {
+                "url": "http://nanno.dip.jp/softlib/rlogin/$version/rlogin_x32.zip"
+            }
+        }
     }
-  }
 }
