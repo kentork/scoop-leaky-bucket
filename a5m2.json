@@ -1,6 +1,6 @@
 {
     "homepage": "https://a5m2.mmatsubara.com/",
-    "version": "2.15.2",
+    "version": "2.15.5",
     "bin": "A5M2.exe",
     "shortcuts": [
         [
@@ -10,12 +10,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.15.2_x64.zip",
-            "hash": "b9ec54c5104313daa5bee94b651243eccdcae9a787ef5c9038aba3e80d06ea4e"
+            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.15.5_x64.zip",
+            "hash": "3a288f53fcdf7dd9beafd76c6d73d69b0a4a2ff799e87b07f32cdd804d744c08"
         },
         "32bit": {
-            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.15.2_x86.zip",
-            "hash": "0d7514000e7ce92a04daa56d44da34fc8d5d7988de6395307d355960480337d5"
+            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.15.5_x86.zip",
+            "hash": "5b03f399c435de97185d2832b7c79415a7033acf906575bc61cc7fc7866ba8ce"
         }
     },
     "checkver": {
